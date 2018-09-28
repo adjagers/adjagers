@@ -99,17 +99,18 @@ section{
     padding: 20px;
     height: 100vh;
     font: normal 2em/normal 'Open Sans Condensed', sans-serif;
-    background-color: darkgrey;
+    background-color:	rgba(192, 192, 192, 0.7);
 }
-#section1,
-#section3{
-    background-color:	#C0C0C0;
+.section1 {
+  color: #eee;
+  height: 700px;
+  margin-top: 42px;
+}
+.section3{
     color: #eee;
     height: 700px;
 }
-#section2{
 
-}
 .section2{
 
 }
@@ -122,7 +123,19 @@ section{
 font-size: 30px;
 }
 
+.background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
 
+.content {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 
 /* for if I want my footer to move with the page
 .footer {
